@@ -10,7 +10,6 @@ const Workspaces = () => Widget.EventBox({
 		vertical: true,
 		children: Array.from({ length: 7 }, (_, i) => i + 1).map(i => Widget.Button({
 			class_name: "empty_ws",
-			relief: 0,
 			attribute: i,
 			label: `${i}`,
 			onClicked: () => dispatch(i),

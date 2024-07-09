@@ -100,6 +100,7 @@ const bluetoothIndicator = () => Widget.Icon({
 
 const sysbutton = Widget.EventBox({
 	name: "Sys EventBox",
+	class_name: "SysButton",
 	child: Widget.Box({
 		name: "Sys InnerBox",
 		spacing: 5,

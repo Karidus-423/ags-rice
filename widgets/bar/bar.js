@@ -5,9 +5,8 @@ import { sysbutton } from "./components/sysbutton.js"
 function Top() {
 	return Widget.Box({
 		name: "Top Bar Box",
-		class_name: "bar_end",
+		class_name: "bar_start",
 		vertical: true,
-		margin_bottom: 100,
 		children: [
 			Clock
 		],
@@ -44,7 +43,7 @@ const Bar = Widget.Window({
 	child: Widget.CenterBox({
 		name: "bar Box",
 		vertical: true,
-		spacing: 50,
+		spacing: 20,
 		hpack: "center",
 		start_widget: Top(),
 		center_widget: Middle(),
